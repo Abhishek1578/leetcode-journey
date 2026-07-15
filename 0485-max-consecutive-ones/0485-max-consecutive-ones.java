@@ -13,6 +13,8 @@ class Solution {
                 sum=0;
                 left++;
                 continue;
+            }else{
+                
             }
             sum +=nums[left];
             left++;
