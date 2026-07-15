@@ -12,13 +12,13 @@ class Solution {
                 finalSum=Math.max(finalSum,sum);
                 sum=0;
                 left++;
-                continue;
+                // continue;
             }else{
-                
-            }
+
             sum +=nums[left];
             left++;
             finalSum=Math.max(finalSum,sum);
+            }
         }
         return finalSum;
     }
